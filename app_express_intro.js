@@ -59,7 +59,4 @@ app.get('/users/:userId/books/:bookId', function (req, res) {
 // Function added with use() for a specific route
 app.use('/someroute', a_middleware_function);
 
-app.listen(5000, function(){
-    console.log("Example app listening on port 3000!");
-});
 
